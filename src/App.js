@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    
+
+    <div className='wrap'>
+      <div className='check'>
+        {arr.map((el, idx) => <input type="checkbox" id='check1' />)}
+        <label for="check1"></label>
+      </div>
+
+      <div className='radio'>
+        {arr.map((el, idx) => <input type="radio" name='test' />)}
+      </div>
+
+      {/* radio버튼 한종류만 선택하려면 name을 지정해줘야함 */}
+
+      <div className='inputbox'>
+        <input type='text'></input>
+      </div>
+
+
+
     </div>
+
   );
 }
+const arr = ['item1','item2','item3','item4']
+const Styledlabel = Styledlabel.label`
+
+`
+
 
 export default App;
