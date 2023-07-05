@@ -3,8 +3,7 @@ import './App.css';
 function App() {
   return (
 
-    
-
+    <div className='king'>
     <div className='wrap'>
       <div className='check'>
         {arr.map((el, idx) => <input type="checkbox" id='check1' />)}
@@ -24,13 +23,12 @@ function App() {
 
 
     </div>
-
+    </div>
   );
 }
 const arr = ['item1','item2','item3','item4']
-const Styledlabel = Styledlabel.label`
 
-`
+
 
 
 export default App;

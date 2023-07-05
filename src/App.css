@@ -1,17 +1,25 @@
+.king{
+  display:flex;
+  justify-content:center;
+    
+}
+
 .wrap{
   max-width: 1080px;
+  width: 100%;
   padding: 0 20px;
-  margin: 0 auto;
-  
-
+  display:flex;
+  flex-direction:column;
   background-color: #b6ebd4;
 }
+
+/* 와이 맥스위드 1080에 패딩20인데 전체너비가 1120이 되는것이지? */
 
 .check
 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  width: 100%;
   height: 20vh;
   background-color:rgb(255, 208, 208);
 }
@@ -19,8 +27,8 @@
 .radio
 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  width: 100%;
   height: 20vh;
   background-color:rgb(255, 241, 197);
 }
@@ -29,6 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 20vh;
   background-color:rgb(197, 255, 253);
 }
